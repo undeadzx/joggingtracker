@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Jogging Import" max_length="40" name="x_65445_jogging_import" type="collection">
+        <element attributes="import_attribute_name=u_average_speed,edge_encryption_enabled=true" label="Average speed" max_length="40" name="u_average_speed" type="string"/>
+        <element attributes="import_attribute_name=u_distance,edge_encryption_enabled=true" label="Distance" max_length="40" name="u_distance" type="string"/>
+        <element attributes="import_attribute_name=u_number,edge_encryption_enabled=true" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="import_attribute_name=u_time,edge_encryption_enabled=true" label="Time" max_length="40" name="u_time" type="string"/>
+    </element>
+</database>

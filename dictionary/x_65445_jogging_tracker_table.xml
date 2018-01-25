@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Jogging Tracker" max_length="40" name="x_65445_jogging_tracker_table" type="collection">
+        <element attributes="scale=2" label="Average Speed (MPH)" max_length="20" name="average_speed" type="decimal"/>
+        <element attributes="scale=1" label="Distance (in Miles)" mandatory="true" max_length="20" name="distance" type="decimal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="scale=2" label="Time (Minutes)" max_length="20" name="time" type="decimal"/>
+        <index name="index">
+            <element name="number"/>
+        </index>
+    </element>
+</database>
